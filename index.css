@@ -1,0 +1,93 @@
+/* Genel sayfa ayarları */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #f3feee, #dff5d8, #c8e6c9);
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+/* Ana içerik kartı */
+.container {
+    background-color: #f3f0d4;
+    width: 800px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    color: #2e7d32;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Alt çizgi */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 25px 0;
+}
+
+/* Paragraf */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Tarif buton alanı */
+.recipe-links {
+    margin-top: 25px;
+}
+
+/* Tarif butonu */
+.recipe-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.recipe-button:hover {
+    background-color: #1b5e20;
+    transform: scale(1.08);
+}
+
+/* Resim */
+.recipe-image {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 40px;
+    margin: 0 10px;
+    color: #2e7d32;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #1b5e20;
+    transform: scale(1.2);
+}
+a {
+    text-decoration: none;
+}
+
+
